@@ -1,0 +1,7 @@
+fastapi==0.112.1
+psycopg2-binary==2.9.9
+pydantic-settings==2.4.0
+SQLAlchemy==2.0.32
+
+# Install libraries from gitlab
+git+https://repo.epps-erp.in/navyojana/api/lib/erp-core-lib.git

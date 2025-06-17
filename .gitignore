@@ -1,0 +1,55 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+*.env
+
+# FastAPI specific
+*.sqlite3
+
+# Pytest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# MyPy
+.mypy_cache/
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Docker
+docker-compose.override.yml
+Dockerfile.dev
+
+# Environment variables
+.env
+
+# Secrets
+*.pem
+*.key
+*.crt
+
+# Other
+*.log
+*.tmp
